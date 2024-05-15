@@ -85,3 +85,13 @@ button:focus-visible {
 .motion {
   animation: moveUp 3s ease infinite; 
 }
+.hero-section {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(173, 216, 230, 0.7)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS98nb3kxotQ3niEiu8yVL5h-tFLzIpZuZYdw&s");
+    background-position: 20% 60%;
+    background-color: #007bff; /* Blue color */
+    background-repeat: no-repeat;
+    background-size: contain; /* Adjust as needed */
+    background-position: 75% center;
+}
+
+
