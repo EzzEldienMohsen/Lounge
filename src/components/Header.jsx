@@ -13,7 +13,7 @@ const Header = () => {
     AOS.refresh();
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const threshold = 300;
+      const threshold = 200;
       setIsScrolled(scrollPosition > threshold);
     };
     window.addEventListener('scroll', handleScroll);
@@ -27,7 +27,7 @@ const Header = () => {
       transition={{ duration: 0.5, ease: 'easeInOut' }}
       initial="bg-transparent"
       animate={isScrolled ? 'bg-white' : 'bg-transparent'}
-      className={`fixed top-0 left-0 z-30 w-full border-b-2 border-slate-300 ${
+      className={`fixed top-0 left-0 z-30 w-full border-b-4 border-slate-300 ${
         isScrolled ? 'bg-white' : 'bg-transparent'
       }`}
     >

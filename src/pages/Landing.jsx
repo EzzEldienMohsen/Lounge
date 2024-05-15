@@ -1,9 +1,12 @@
-import { LandingHero } from "../subComponents";
+import { LandingHero, Menu } from "../subComponents";
 
 
 const Landing = () => {
   return (
+    <>
     <LandingHero/>
+    <Menu/>
+    </>
   );
 };
 

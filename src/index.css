@@ -94,4 +94,39 @@ button:focus-visible {
     background-position: 75% center;
 }
 
+.about-board {
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.about-board::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(0, 0, 139, 0.621)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEKqNWMUUSJZuUDPFVAhIal8-eKDH7E3mg_5pYQsO-17hO5Vc3-aoYASGtVPpgasWKI-8&usqp=CAU");
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.gold-standard-copy {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+/* Additional styling for better readability */
+.gold-standard-copy {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
