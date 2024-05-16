@@ -41,8 +41,8 @@ const Header = () => {
           alt="logo"
           className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 rounded-full shadow-lg shadow-[skyblue] motion"
         />
-        <NavBarLarge />
-       <NavBarMedium/>
+        <NavBarLarge firstColor={'blue'} firstHoverColor={'darkblue'} />
+        <NavBarMedium />
       </div>
     </motion.header>
   );
