@@ -25,10 +25,10 @@ const AboutBranches = () => {
               key={branch.id}
               className="border-2 border-white px-4 py-4 flex flex-col justify-center items-center md:mr-4 lg:mr-0 mt-4 rounded-md shadow-md shadow-[wheat]"
             >
-              <h1 className="text-white text-lg md:text-xl lg:text-2xl tracking-wide font-semibold">
+              <h1 className="text-white text-lg md:text-xl lg:text-2xl tracking-wide font-semibold motion">
                 {branch.title}
               </h1>
-              <p className="text-white text-md md:text-lg lg:text-xl font-light tracking-normal">
+              <p className="text-white text-md md:text-lg lg:text-xl font-light tracking-normal motion">
                 {branch.text}
               </p>
             </div>
