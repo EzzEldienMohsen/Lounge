@@ -130,3 +130,19 @@ button:focus-visible {
   line-height: 24px;
   margin-bottom: 20px;
 }
+.aboutHero {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM5t7oQbZaT4gbrD-RddyTkqazEjYctoZ-iA&s');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.aboutHero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 255, 0.5));
+}

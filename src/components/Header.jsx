@@ -1,10 +1,10 @@
 import React from 'react';
-import {  logo } from '../assets';
+import { logo } from '../assets';
 import { NavBarLarge, NavBarMedium } from '../subComponents';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { motion } from 'framer-motion';
-
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = React.useState(false);
@@ -36,11 +36,13 @@ const Header = () => {
         data-aos-duration="2000"
         className="flex justify-between items-center px-6 py-4"
       >
-        <img
-          src={logo}
-          alt="logo"
-          className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 rounded-full shadow-lg shadow-[skyblue] motion"
-        />
+        <Link to="/">
+          <img
+            src={logo}
+            alt="logo"
+            className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 rounded-full shadow-lg shadow-[skyblue] motion"
+          />
+        </Link>
         <NavBarLarge firstColor={'blue'} firstHoverColor={'darkblue'} />
         <NavBarMedium />
       </div>
