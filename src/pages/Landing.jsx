@@ -1,11 +1,12 @@
-import { LandingHero, Menu } from "../subComponents";
+import { LandingAbout, LandingHero, Menu } from "../subComponents";
 
 
 const Landing = () => {
   return (
     <>
-    <LandingHero/>
-    <Menu/>
+      <LandingHero />
+      <Menu />
+      <LandingAbout/>
     </>
   );
 };

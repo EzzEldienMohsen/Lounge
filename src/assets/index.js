@@ -33,3 +33,5 @@ export const menuItems = [
     img: 'https://img.restaurantguru.com/m8/menu-SEA-Bangkok-Restaurant-1.jpg',
   },
 ];
+export const banner =
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBW1zZm-QK0U3lxVvsFx3JbwMfj1Ex7gUPfw&s';

@@ -8,7 +8,7 @@ const Menu = () => {
     AOS.refresh();},[])
   return (
     <div className="about-board flex flex-col justify-center items-center px-4 py-2 ">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl capitalize text-[blue]">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl capitalize text-[blue] font-semibold">
         our menu
       </h1>
       <div
