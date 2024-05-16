@@ -35,3 +35,25 @@ export const menuItems = [
 ];
 export const banner =
   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBW1zZm-QK0U3lxVvsFx3JbwMfj1Ex7gUPfw&s';
+  export const branches = [
+    {
+      id: 1,
+      title: 'branch 1',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto voluptatem possimus eius libero. Reiciendis incidunt odit accusantium quo cum.',
+    },
+    {
+      id: 2,
+      title: 'branch 2',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto voluptatem possimus eius libero. Reiciendis incidunt odit accusantium quo cum.',
+    },
+    {
+      id: 3,
+      title: 'branch 3',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto voluptatem possimus eius libero. Reiciendis incidunt odit accusantium quo cum.',
+    },
+    {
+      id: 4,
+      title: 'branch 4',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto voluptatem possimus eius libero. Reiciendis incidunt odit accusantium quo cum.',
+    },
+  ];
