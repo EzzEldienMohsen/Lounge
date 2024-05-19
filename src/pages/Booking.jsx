@@ -15,7 +15,6 @@ const value =
      const handleSubmit = (e) => {
        e.preventDefault();
        sendTheReservation(values);
-           console.log(values)
 
      };
   return (

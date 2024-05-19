@@ -14,7 +14,6 @@ const SignUp = () => {
      const handleSubmit = (e) => {
        e.preventDefault();
        signNewUser(values);
-           console.log(values)
 
      };
   return (
