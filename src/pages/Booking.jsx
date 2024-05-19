@@ -8,12 +8,15 @@ const Booking = () => {
      const [values, setValues] = React.useState(bookingValues);
      const handleChange = (e) => {
        const name = e.target.name;
-       const value = e.target.value;
-       setValues({ ...values, [name]: value });
+const value =
+  e.target.type === 'number' ? parseInt(e.target.value) : e.target.value;
+  setValues({ ...values, [name]: value });
      };
      const handleSubmit = (e) => {
-       e.preventDefault;
+       e.preventDefault();
        sendTheReservation(values);
+           console.log(values)
+
      };
   return (
     <div className="mt-[80px] md:mt-[96px] lg:mt-[114px]  flex flex-col justify-center items-center px-4 py-8 shadow-inner shadow-[darkblue] border-t-4 border-[wheat] booking">
@@ -54,10 +57,10 @@ const Booking = () => {
           textColor="darkblue"
         />
         <FormRow
-          name="time"
-          type="time"
-          value={values.time}
-          placeHolder="please insert the hour you would prefer"
+          name="guests"
+          type="number"
+          value={values.guests}
+          placeHolder="number of guests"
           handleChange={handleChange}
           textColor="darkblue"
         />

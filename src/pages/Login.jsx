@@ -10,8 +10,9 @@ const Login = () => {
     setValues({ ...values, [name]: value });
   };
   const handleSubmit = (e) => {
-    e.preventDefault;
+       e.preventDefault();
     signNewUser(values);
+    console.log(values)
   };
   return (
     <div className="mt-[80px] md:mt-[96px] motion lg:mt-[114px]  flex flex-col justify-center items-center px-4 py-8 shadow-inner shadow-white border-t-4 border-[wheat] logIn">

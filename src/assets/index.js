@@ -171,17 +171,17 @@ export const bookingValues = {
   Phone: 0,
   date:new Date(),
   time:new Date().getHours(),
-  numberOfGuests:1,
+  guests:1,
   options:["option 1","option 2" ,"option 3" ," option 4"],
   service:"",
 };
 export const newUser = {
   name:"",
   password:"",
-  password2:"",
+  confirm:"",
   email:"",
 }
 export const user = {
-  name:"",
+  email:"",
   password:"",
 }

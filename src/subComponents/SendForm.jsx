@@ -13,8 +13,9 @@ const SendForm = () => {
         setValues({...values,[name]:value})
     }
     const handleSubmit =(e)=>{
-        e.preventDefault;
+       e.preventDefault();
         sendTheMessage(values)
+        console.log(values)
     }
   return (
     <form onSubmit={handleSubmit} method="POST" className="w-full mb-4">
