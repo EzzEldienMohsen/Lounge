@@ -8,7 +8,7 @@ const Memberships = () => {
     AOS.refresh();
   }, []);
   return (
- <div className="bg-white border-t-4 border-[white] shadow-inner shadow-[wheat] px-2 py-4 flex flex-col justify-center items-center">
+ <div className="bg-white border-t-4 border-[white] shadow-inner shadow-[wheat] px-2 py-4 flex flex-col justify-center items-center rounded-t-md">
         <h1 className="text-[darkblue] text-2xl md:text-3xl lg:text-4xl font-bold tracking-widest capitalize mb-4">
           our membership
         </h1>

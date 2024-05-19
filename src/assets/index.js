@@ -128,3 +128,35 @@ export const banner =
       img: 'https://www.epsb.co.uk/wp-content/uploads/silver-membership2.png',
     },
   ];
+  export const serviceCard = [
+    {
+      id: 1,
+      title: 'birthdays',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto voluptatem possimus eius libero. Reiciendis incidunt odit accusantium quo cum.',
+      img: 'https://www.onceuponachef.com/images/2012/11/Vanilla-Birthday-Cake-18-1200x1480.jpg',
+    },
+    {
+      id: 2,
+      title: 'cafes',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto voluptatem possimus eius libero. Reiciendis incidunt odit accusantium quo cum.',
+      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1200px-A_small_cup_of_coffee.JPG',
+    },
+    {
+      id: 3,
+      title: 'restaurants',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto voluptatem possimus eius libero. Reiciendis incidunt odit accusantium quo cum.',
+      img: 'https://panoramicrestaurant.com/wp-content/uploads/2023/07/2TH08812-1-scaled.jpg',
+    },
+    {
+      id: 4,
+      title: 'calm working space',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto voluptatem possimus eius libero. Reiciendis incidunt odit accusantium quo cum.',
+      img: 'https://media.licdn.com/dms/image/D5612AQGNFj_iZIRQ6g/article-cover_image-shrink_720_1280/0/1693636697937?e=2147483647&v=beta&t=kWS-LAgE175X4GOQ6V2CKSgdm1t6fFeNXVYVyM-RE8k',
+    },
+    {
+      id: 5,
+      title: 'resorts',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto voluptatem possimus eius libero. Reiciendis incidunt odit accusantium quo cum.',
+      img: 'https://media.cntraveller.com/photos/652fc825e08aed4f9e651928/3:2/w_4245,h_2830,c_limit/Marbellaelix_Best_all%20_inclusive_resorts_Europe_October23_PR.jpg',
+    },
+  ];
