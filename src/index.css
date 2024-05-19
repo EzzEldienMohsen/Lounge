@@ -175,3 +175,33 @@ button:focus-visible {
   background: rgba(135, 206, 235, 0.5); /* Sky Blue with 50% opacity */
   mix-blend-mode: screen;
 }
+
+
+.booking {
+  position: relative;
+  width: 100%;
+  background-image: url('https://previews.123rf.com/images/279photo/279photo1705/279photo170502050/78407559-booking-form-for-hotel-room-reservation-stone-background-top-view-space-for-text.jpg');
+  background-size: cover;
+}
+
+.booking::before,
+.booking::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.booking::before {
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+}
+
+.booking::after {
+  background-color: rgba(0, 0, 139, 0.3); /* Darker Blue with 30% opacity */
+}
+
+.booking-content {
+  color: #000066; /* Dark Blue */
+}

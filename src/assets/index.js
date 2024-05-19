@@ -3,7 +3,7 @@ export const logo =
 export const links = [
   { id: 1, to: '/about', title: 'about' },
   { id: 2, to: '/service', title: 'our services' },
-  { id: 3, to: '/', title: 'book now' },
+  { id: 3, to: '/booking', title: 'book now' },
   { id: 4, to: '/contact', title: 'contact us' },
   { id: 5, to: '/', title: 'sign up' },
 ];
@@ -164,4 +164,14 @@ export const initialValues = {
   name: '',
   email: '',
   message: '',
+};
+export const bookingValues = {
+  name: '',
+  email: '',
+  Phone: 0,
+  date:new Date(),
+  time:new Date().getHours(),
+  numberOfGuests:1,
+  options:["option 1","option 2" ,"option 3" ," option 4"],
+  service:"",
 };

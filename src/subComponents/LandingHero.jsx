@@ -26,7 +26,7 @@ const LandingHero = () => {
       <Link
         data-aos="fade-up"
         data-aos-duration="2000"
-        to="/"
+        to="/booking"
         className="bg-[blue] text-white p-4 rounded-3xl hover:bg-[#1a5061] hover:text-[#ffffffc4] focus:bg-white focus:text-[blue] capitalize flex gap-4 justify-center items-center text-xl motion"
       >
         <p className="mb-1">try now</p>
