@@ -43,6 +43,12 @@ const SendForm = () => {
         high="300px"
         textColor="white"
       />
+      <button
+        type="submit"
+        className="btn btn-block contact text-[white] rounded-lg text-xl md:text-2xl mt-2 capitalize"
+      >
+        submit
+      </button>
     </form>
   );
 }

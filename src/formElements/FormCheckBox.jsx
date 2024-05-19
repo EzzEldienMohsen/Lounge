@@ -1,11 +1,16 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
 import React from 'react'
-import { bookingValues } from '../assets';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const FormCheckBox = ({ name, label, value, handleChange, high, options,textColor }) => {
+  React.useEffect(() => {
+    AOS.init();
+    AOS.refresh();},[])
   return (
-    <div className={`flex flex-col justify-center  items-start w-[100%] `}>
+    <div 
+    data-aos="zoom-in"
+        data-aos-duration="2000"
+    className={`flex flex-col justify-center  items-start w-[100%] `}>
       <label
         className={`my-4 capitalize text-lg md:text-xl lg:text-2xl text-[${textColor}]`}
         htmlFor={name}

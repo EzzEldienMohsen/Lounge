@@ -5,7 +5,7 @@ export const links = [
   { id: 2, to: '/service', title: 'our services' },
   { id: 3, to: '/booking', title: 'book now' },
   { id: 4, to: '/contact', title: 'contact us' },
-  { id: 5, to: '/', title: 'sign up' },
+  { id: 5, to: '/signup', title: 'sign up' },
 ];
 export const menuItems = [
   {
@@ -175,3 +175,13 @@ export const bookingValues = {
   options:["option 1","option 2" ,"option 3" ," option 4"],
   service:"",
 };
+export const newUser = {
+  name:"",
+  password:"",
+  password2:"",
+  email:"",
+}
+export const user = {
+  name:"",
+  password:"",
+}
