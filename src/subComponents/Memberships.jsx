@@ -15,13 +15,13 @@ const Memberships = () => {
         <div
           data-aos="flip-up"
           data-aos-duration="2000"
-          className="flex flex-col justify-center items-center md:grid md:grid-cols-2 lg:flex lg:flex-row lg:flex-wrap"
+          className="flex flex-col justify-center items-center  md:flex md:flex-row md:flex-wrap md:justify-between "
         >
           {memberships.map((member) => {
             return (
               <div
                 key={member.id}
-                className="motion flex flex-col justify-evenly items-center md:ml-6 mb-4 md:h-[380px]  lg:w-2/5 lg:h-[400px] bg-transparent shadow-md shadow-[darkblue] border-[2px] rounded-lg border-[blue] px-6 py-2"
+                className="motion flex flex-col justify-evenly items-center md:ml-6 mb-4 md:h-[380px]  md:w-2/5 lg:h-[400px] bg-transparent shadow-md shadow-[darkblue] border-[2px] rounded-lg border-[blue] px-6 py-2"
               >
                 <img
                   src={member.img}
