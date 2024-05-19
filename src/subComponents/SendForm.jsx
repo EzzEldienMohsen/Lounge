@@ -24,7 +24,7 @@ const SendForm = () => {
         sendTheMessage(values)
     }
   return (
-    <form onSubmit={handleSubmit} className="w-full">
+    <form onSubmit={handleSubmit} className="w-full mb-4">
         <FormRow name="name" type="text" value={values.name} handleChange={handleChange} placeHolder="please insert your name"/>
         <FormRow name="email" type="email" value={values.email} handleChange={handleChange} placeHolder="please insert your email"/>
         <FormRow name="message" type="text" value={values.message} handleChange={handleChange} placeHolder="please insert your name" high="300px"/>
